@@ -1,0 +1,36 @@
+body {
+  margin: auto;
+  font-family: sans-serif;
+  background-image: url(/home/grishiit/Изображения/Безмятежность.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #f5f5f5;
+}
+
+.logo {
+  background-color: #f5f5f5ce;
+}
+
+.container {
+  background-color: #f5f5f5ce;
+  max-width: 960px;
+  padding: 24px;
+  margin: auto;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 21px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  color: #6d7fcc;
+}
+
+p {
+  line-height: 24px;
+}
