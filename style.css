@@ -1,16 +1,31 @@
 body {
   margin: auto;
-  font-family: sans-serif;
-  background-image: url(/home/grishiit/Изображения/Безмятежность.jpg);
+  font-family: sans-serif; /* Шрифт */
+  background-image: url(bliss.jpg); /* Фоновое изображение */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-color: #f5f5f5;
+  color: #010203;
 }
 
-.logo {
-  background-color: #f5f5f5ce;
+.main_logo {
+  height: 32px;
+  border-radius: 8px;
+}
+
+.logos {
+  height: 16px;
+}
+
+a {
+  color: #010203;
+}
+
+a:hover {
+  color: black;
+  filter: invert(37%) sepia(59%) saturate(997%) hue-rotate(247deg) brightness(90%) contrast(80%);
 }
 
 .container {
@@ -26,9 +41,27 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.windows {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: #f5f5f5af;
+  margin: 50px;
+  max-width: 30%;
+  line-height: 20px;
+  overflow: hidden;
+/* Делаем текст не выделяемым */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 h1 {
   text-align: center;
-  color: #6d7fcc;
+  color: #746cc0;
 }
 
 p {
