@@ -21,8 +21,20 @@ body {
   border-radius: 8px;
 }
 
-.logos {
-  height: 16px;
+.logo_container a { /* Блок с Лого и текстом */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.logo_container a b { /* Блок с Лого и текстом */
+  padding: 2px;
+}
+
+.logo_container a img { /* Блок с Лого и текстом */
+  height: 18px;
 }
 
 a {
@@ -50,7 +62,6 @@ a:hover {
   right: 0;
   color: #f5f5f5af;
   margin: 50px;
-  max-width: 30%;
   line-height: 20px;
   overflow: hidden;
 /* Делаем текст не выделяемым */
@@ -65,8 +76,9 @@ a:hover {
 h1 {
   text-align: center;
   color: #746cc0;
+  text-decoration: underline;
 }
 
-p {
-  line-height: 24px;
+h3 {
+  margin: auto;
 }
