@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg13" width="16" height="22" version="1.1" viewBox="2799 -911 16 22" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata17">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs4">
+  <style id="style2">.cls-3 {
+        fill: #211f20;
+      }
+
+      .cls-4 {
+        fill: #737373;
+      }
+
+      .cls-5 {
+        fill: #f1680d;
+      }
+
+      .cls-6 {
+        fill: rgba(255, 255, 255, 0);
+      }</style>
+ </defs>
+ <g id="Artboard_1" class="cls-1" transform="translate(.033568 -1.993)" data-name="Artboard – 1">
+  <g id="Symbol_3_1" transform="translate(2759,-975)" data-name="Symbol 3 – 1">
+   <g id="Group_44" transform="translate(0,2.333)" data-name="Group 44">
+    <path id="Path_4" class="cls-3" transform="translate(989,564)" d="m-949-500v10.667l8-5.333" fill="#211f20" data-name="Path 4"/>
+    <path id="Path_5" class="cls-4" transform="translate(989 574.67)" d="m-949-500v10.667l8-5.333" fill="#737373" data-name="Path 5"/>
+    <path id="Path_6" class="cls-5" transform="translate(997 569.33)" d="m-949-500v10.667l8-5.333" fill="#f1680d" data-name="Path 6"/>
+    <path id="Path_7" class="cls-6" transform="rotate(180,24,40)" d="m0 0v10.667l8-5.334z" fill="rgba(255,255,255,0)" data-name="Path 7"/>
+   </g>
+  </g>
+ </g>
+</svg>
