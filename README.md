@@ -1,2 +1,2 @@
-# Social-Media-Links
-https://grishiit.github.io/Social-Media-Links/main.html
+# Social Media Links
+![Preview](https://github.com/grishiit/Social-Media-Links/blob/main/preview.png?raw=true)
