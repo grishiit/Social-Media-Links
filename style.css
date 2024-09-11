@@ -1,5 +1,12 @@
+/* Загрузка Шрифта */
+:root { font-family: 'Inter', sans-serif; }
+       @supports (font-variation-settings: normal) {
+         :root { font-family: 'Inter var', sans-serif; }
+       }
+
 html {
-  background-image: url(png/bliss.jpg); /* Фоновое изображение */
+  font-family: Inter; /* Шрифт */
+  background-image: url(png/bliss.webp); /* Фоновое изображение */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -7,13 +14,25 @@ html {
 }
 
 body {
-  font-family: sans-serif; /* Шрифт */
   color: #010203;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  body {display: flex;} /* Адаптирует всю страницу под ПК */
+  .windows {position: fixed;} /* Адаптирует "Активацию" под ПК */
+}
+
+.window-decoration {
+  background-color: #f5f5f5ce;
+  padding: 24px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 21px;
 }
 
 .main_logo {
@@ -21,7 +40,7 @@ body {
   border-radius: 8px;
 }
 
-.logo_container a { /* Блок с Лого и текстом */
+.link_container a { /* Блок с Ссылками */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,11 +48,11 @@ body {
   text-decoration: none;
 }
 
-.logo_container a b { /* Блок с Лого и текстом */
+.link_container a b { /* Пробел между Иконками и Ссылками*/
   padding: 2px;
 }
 
-.logo_container a img { /* Блок с Лого и текстом */
+.link_container a img { /* Размер Иконок */
   height: 18px;
 }
 
@@ -56,8 +75,7 @@ a:hover {
   border-radius: 21px;
 }
 
-.windows {
-  position: fixed;
+.windows { /* "Активация Linux" */
   bottom: 0;
   right: 0;
   color: #f5f5f5af;
@@ -74,9 +92,32 @@ a:hover {
 }
 
 h1 {
-  text-align: center;
-  color: #746cc0;
   text-decoration: underline;
+  background-blend-mode: screen;
+  padding: 24px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 21px;
+}
+
+.libre-title {
+  text-align: left;
+  
+  background-color: #ccff9dce;
+  background-image: url(png/orang.webp);
+
+  background-position: center;
+}
+
+.libre-title img{
+  height: 36px;
+}
+
+.proprietary-title {
+  text-align: right;
+  
+  background-color: #ffb19dce;
+  background-image: url(png/snow.webp);
+  background-position: right;
 }
 
 h3 {

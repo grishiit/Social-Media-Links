@@ -1,2 +1,2 @@
 # Social Media Links
-![Preview](preview.png)
+![Preview](preview.webp)
